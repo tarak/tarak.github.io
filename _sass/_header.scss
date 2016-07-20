@@ -10,12 +10,14 @@ header {
   -o-background-size: cover;
   background-position: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("/img/background.jpg");
+
   .header-content {
     position: relative;
     width: 100%;
     padding: 100px 15px;
     text-align: center;
     z-index: 2;
+
     .inner {
       h1 {
         margin-top: 0;
@@ -30,16 +32,16 @@ header {
     }
   }
 }
-
-@media (min-width: 34em) {
+@media (min-width:34em) {
   .icon-lg {
-    font-size: 80px;
+    font-size: 60px;
   }
   .icon-lger {
     font-size: 40px;
   }
   header {
     min-height: 100%;
+
     .header-content {
       position: absolute;
       top: 85%;
@@ -47,10 +49,12 @@ header {
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
+
       .inner {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
+
         h1 {
           font-size: 53px;
         }
@@ -65,6 +69,6 @@ header {
   }
   section {
     min-height: 600px;
-    padding: 100px 0;
+    padding: 50px 0;
   }
 }
