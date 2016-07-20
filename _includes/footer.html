@@ -1,0 +1,67 @@
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4 col-sm-4">
+                <ul class="list-unstyled">
+                    <li><i class="ion-ios-location wow fadeIn" data-wow-delay=".1s"></i> Rotenbergstr. 6 - 66111 Saarbr&uuml;cken</li>
+                    <li><i class="ion-email wow fadeIn" data-wow-delay=".1s"></i> halbkarat [at] gmail.com</li>
+                    <li><i class="ion-ios-telephone wow fadeIn" data-wow-delay=".1s"></i> +49 1525 422 82 37</li>
+                </ul>
+            </div>
+            <div class="col-xs-4 col-sm-4 text-xs-center">
+                <div>
+                    <button class="btn btn-link" data-toggle="modal" data-target="#privacyModal" type="button">Datenschutzerklärung</button>
+                </div>
+                <div>
+                    <button class="btn btn-link" data-toggle="modal" data-target="#diclaimerModal" type="button">Impressum</button>
+                </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 text-xs-right">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://github.com/tarak" target="_blank">
+                            <i class="icon-lger ion-social-github wow fadeIn" data-wow-delay=".1s"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://google.com/+TarakBlah" target="_blank">
+                            <i class="icon-lger ion-social-googleplus wow fadeIn" data-wow-delay=".1s"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/tarak.blah" target="_blank">
+                            <i class="icon-lger ion-social-facebook wow fadeIn" data-wow-delay=".1s"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/halbkarat" target="_blank">
+                            <i class="icon-lger ion-social-twitter wow fadeIn" data-wow-delay=".1s"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <span class="pull-right small">Made with Bootstrap & Jekyll</span>
+    </div>
+</footer>
+<div id="privacyModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                {% include privacy.html %}
+                <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">OK <i class="ion-android-close"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="diclaimerModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                {% include disclaimer.html %}
+                <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">OK <i class="ion-android-close"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
