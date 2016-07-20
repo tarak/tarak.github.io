@@ -1,0 +1,105 @@
+.navbar-default {
+  border-color: rgba(35, 35, 35, 0.05);
+  background-color: #fff;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  transition: all .4s;
+}
+
+.navbar-brand {
+  -webkit-transition: padding .2s ease-in;
+  -moz-transition: padding .2s ease-in;
+  transition: padding .2s ease-in;
+  font-weight: bold;
+  &:hover, &:focus {
+    color: #007FFF;
+  }
+}
+
+.navbar-default {
+  .navbar-toggle {
+    &:focus, &:hover {
+      background-color: #001A33;
+    }
+    border-color: transparent;
+  }
+  .navbar-collapse {
+    border-color: transparent;
+  }
+  .nav {
+    > li > a {
+      font-size: 12px;
+      color: #001A33;
+      text-transform: uppercase;
+      font-weight: bold;
+      &:focus {
+        font-size: 12px;
+        color: #001A33;
+        text-transform: uppercase;
+      }
+      &:hover, &:focus:hover {
+        color: #007FFF;
+      }
+    }
+    .nav-link.active {
+      color: #007FFF !important;
+      background-color: transparent;
+      &:focus {
+        color: #007FFF !important;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+/* responsive nav */
+@media (max-width: 48em) {
+  .navbar-default {
+    .navbar-nav {
+      > .nav-item {
+        float: none;
+        margin-left: .1rem;
+      }
+      float: none !important;
+    }
+    .navbar-brand img {
+      display: inline;
+    }
+  }
+}
+
+@media (min-width: 48em) {
+  .navbar-default {
+    border-color: transparent;
+    background-color: #fff;
+    min-height: 60px;
+  }
+  .navbar-brand {
+    padding: 12px;
+  }
+  .navbar-default {
+    .navbar-brand {
+      &:hover, &:focus {
+        color: #001A33;
+      }
+    }
+    .nav > li > a {
+      color: #001A33;
+      padding-left: 5px;
+      padding-top: 21px;
+      letter-spacing: 1.1px;
+      &:focus {
+        color: #001A33;
+        padding-left: 5px;
+        padding-top: 21px;
+        letter-spacing: 1.1px;
+      }
+      &:hover, &:focus:hover {
+        color: #001A33;
+      }
+    }
+  }
+  #topNav {
+    background-color: #fff;
+  }
+}
