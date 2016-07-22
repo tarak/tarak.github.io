@@ -98,13 +98,11 @@
 
         .nav > li > a {
             color: $color-highlight;
-            padding-left: 5px;
             padding-top: 21px;
             letter-spacing: 1.1px;
 
             &:focus {
                 color: $color-highlight;
-                padding-left: 5px;
                 padding-top: 21px;
                 letter-spacing: 1.1px;
             }

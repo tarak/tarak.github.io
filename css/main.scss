@@ -19,3 +19,7 @@ a:link, a:active, a:visited, a:hover, a:focus {
 	outline: none;
 	text-decoration: none;
 }
+
+a.active {
+  border-bottom: 2px solid #000;
+}
