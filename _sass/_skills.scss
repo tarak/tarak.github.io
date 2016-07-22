@@ -1,5 +1,7 @@
-.skills-row {
-}
 .skill-title {
-	margin-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.progress[value] {
+    color: $color-link !important;
 }

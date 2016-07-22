@@ -1,32 +1,58 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext';
-
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
 }
+
 body {
     font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
-    color: #001A33;
-    webkit-tap-highlight-color: #222;
+    color: $color-highlight;
+    webkit-tap-highlight-color: $color-dark;
     top: 0;
 }
+
 .bg-alt {
-    background-color: #fff;
+    background-color: $color-background-light;
 }
+
 .icon-lger {
     margin-right: 0.5em;
 }
+
 footer {
     padding: 45px;
     padding-top: 40px;
-    background-color: #e0e0e3;
+    background-color: $color-background-darker;
 }
-footer h4, footer h6 {
-    color: #fff;
+
+footer h4,
+footer h6 {
+    color: $color-background-light;
 }
 
 td {
     vertical-align: top;
     padding: 0.25em;
     border: none;
+}
+
+.text-primary {
+    color: $color-link !important;
+}
+
+.btn-primary {
+    background-color: $color-link !important;
+    border-color: $color-link !important;
+}
+
+.footer-links {
+    color: $color-link !important;
+}
+
+h4 {
+    margin-bottom: 1.5rem;
+}
+
+.section-header {
+    margin-bottom: 1.5em;
 }
