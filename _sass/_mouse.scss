@@ -10,6 +10,7 @@
 	height: 8px;
 	width: 4px;
 	margin: 10px auto;
+	border-radius: 2px;
 	background: $color-link;
 	position: relative;
 	-webkit-animation: a 1.2s ease infinite;
@@ -28,6 +29,7 @@
 	transform: rotate(45deg);
 	border-right: 4px solid $color-link;
 	border-bottom: 4px solid $color-link;
+	border-radius: 2px;
 	margin: 5px auto 3px;
 	-webkit-animation: b 1s infinite;
 	animation: b 1s infinite;
