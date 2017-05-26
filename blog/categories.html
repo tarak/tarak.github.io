@@ -1,0 +1,27 @@
+---
+layout: tag_list
+title: Kategorien
+---
+
+<div>
+  <div class="mb-4 mt-4">
+    {% assign sorted_cats = site.categories | sort %}
+    {% for tag in sorted_cats %}
+    <span class="badge badge-primary p-2"><i class="icon ion-folder mr-1"></i><a href="#{{ tag[0] | slugify }}" class="tags">{{ tag[0] }}</a></span>
+    {% endfor %}
+  </div>
+  <div class="mb-4 mt-4">
+    {% for tag in sorted_cats %}
+    <h4 id="{{ tag[0] | slugify }}" class="mt-4"><i class="icon ion-folder mr-1"></i>{{ tag[0] }}</h4>
+    <ul class="list-unstyled">
+      {% for post in tag[1] %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">
+        <small class="mr-2">{{ post.date | date: "%d.%m.%Y" }}</small>
+        {{ post.title }}
+      </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</div>

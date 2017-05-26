@@ -1,0 +1,75 @@
+- company: COMVEL GmbH / weg.de
+  company_url: https://www.weg.de/
+  title: DevOps Engineer
+  start_date: 09/2016
+  end_date: Jetzt
+  location: K&ouml;ln, M&uuml;nchen, Leipzig
+  assignments:
+    - Migration einer veralteten Infrastruktur in eine private Cloud auf OpenStack-Basis.
+    - Konzeption und Aufbau von Server-Infrastrukturen auf OpenStack-Basis.
+    - Entwicklung von Tools zum dynamischen Deployment von Cloud-Infrastrukturen.
+    - Einf&uuml;hrung und Einweisung in Configuration Management.
+    - Aktualisierung der Continuous Integration Umgebung.
+    - Konfiguration, Migration und Wartung Backend-Systeme (MongoDB &amp; SOLR).
+- company: Testfabrik AG
+  company_url: https://testfabrik.com/
+  title: Senior DevOps &amp; DevOps Consultant
+  start_date: 09/2014
+  end_date: 02/2016
+  location: Saarbr&uuml;cken
+  assignments:
+    - DevOps-Consultant in externen Projekten.
+    - Team-Lead DevOps und IT-Operations.
+    - Schulung für bestehende Infrastruktur-Komponenten (Chef).
+    - Entwicklung dynamisches Anlegen, Betrieb und L&ouml;schen von dedizierten Virtual Private Clouds.
+    - Support bei der Entwicklung von Micro-Services in Java/Scala.
+    - Aufbau von Unit- Und Integration-Testsuiten des DevOps-Code.
+- company: Testfabrik AG
+  company_url: https://testfabrik.com/
+  title: DevOps &amp; Entwickler
+  start_date: 09/2013
+  end_date: 08/2014
+  location: Saarbr&uuml;cken
+  assignments:
+    - Virtualisierung von verschiedenen Betriebssystemen auf der VMWare vCloud (Windows, Linux, Mac OS X).
+    - Aufbau eines Katalog von VM Templates als Slaves f&uuml;r SaaS-/IaaS-Produkte.
+    - Konzeption und Aufbau einer Server-Infrastruktur mit VMware vCloud.
+    - Entwicklung von Tools zum dynamischen Deployment von Cloud-Ressourcen.
+    - Einf&uuml;hrung  und Konfiguration von Chef Servern und Clients.
+    - Verfassen und Pflege von 80+ Chef Kochb&uuml;chern.
+    - Konfiguration und Wartung Backend-Systeme (MySQL, PostgreSQL, RabbitMQ, Redis).
+- company: Selbstst&auml;ndig
+  title: IT-Freelancer &amp; -Consultant
+  start_date: 2003
+  end_date: 2013
+  location: Berlin, Bundesweit
+  assignments:
+    - Einrichtung, Aktualisierung und Migriation von Linux- und Windows-Server.
+    - Planung, Installation und Konfigurationen von Mail-Relays mit Anti-Virus- &amp; Spam-Filter.
+    - Einrichtung und Betreuung von Virtual Private Networks.
+    - Implementierung und Optimierung Gateways und Routing.
+    - Optimierung von Netzwerken.
+    - Implementierung und Betreuung von Firewalls.
+    - Web-, Front- und Backend-Entwicklung.
+- company: Symantec Deutschland GmbH
+  company_url: https://symantec.de/
+  title: Security-Analyst &amp; -Engineer
+  start_date: 03/2002
+  end_date: 08/2003
+  location: Berlin
+  assignments:
+    - Einrichtung und Change-Management von Symantec Firewall-Appliances f&uuml;r europ&auml;ische Kunden.
+    - Implementierung und Betreuung von Virtual Private Networks zwischen Symantec Firewall-Appliances.
+    - Mehrsprachiger technischer Support bei der Kunden-Akquise in Deutschland und Frankreich.
+    - Implementierung und Betreuung von Fernwartungssystemen (Dial-In Router, Terminal-Server, USV-Systeme).
+    - Mehrsprachiger 1st &amp; 2nd Level-Support und 24x7 Incident Response.
+- company: Icangetyou.com AG
+  title: Linux-Systemadministrator
+  start_date: 12/2000
+  end_date: 03/2002
+  location: Berlin
+  assignments:
+    - Einrichtung eines VPN zw. Collocation &amp; Office.
+    - Implementierung und Betreuung von Firewalls.
+    - Betrieb von Debian-basierten Application-Server.
+    - Einrichtung und Betreuung von Entwickler-Workstations.

@@ -1,0 +1,138 @@
+- name: DevOps
+  icon: power
+  items:
+    - name: Chef
+      value: 95
+    - name: Puppet
+      value: 65
+    - name: Ansible
+      value: 50
+    - name: CFEngine
+      value: 50
+- name: Cloud-Plattformen
+  icon: cloud
+  items:
+    - name: Amazon AWS Cloud
+      value: 90
+    - name: OpenStack
+      value: 90
+    - name: VMWare vCloud
+      value: 85
+- name: Virtualisierung
+  icon: cube
+  items:
+    - name: Packer
+      value: 95
+    - name: Vagrant
+      value: 95
+    - name: VirtualBox
+      value: 90
+    - name: Docker
+      value: 80
+- name: Datenbanken
+  icon: funnel
+  items:
+    - name: PostgreSQL
+      value: 90
+    - name: MySQL
+      value: 90
+    - name: MS SQL
+      value: 50
+    - name: Oracle
+      value: 35
+- name: NoSQL
+  icon: android-funnel
+  items:
+    - name: Elasticsearch
+      value: 95
+    - name: Redis
+      value: 95
+    - name: Memcache
+      value: 85
+    - name: MongoDB
+      value: 90
+    - name: SOLR
+      value: 80
+- name: Messaging
+  icon: ios-chatboxes-outline
+  items:
+    - name: RabbitMQ
+      value: 95
+    - name: Celery
+      value: 80
+    - name: Amazon Simple Queue Service
+      value: 85
+- name: Sicherheit
+  icon: lock-combination
+  items:
+    - name: Firewall
+      value: 95
+    - name: VPN
+      value: 95
+    - name: Public Key Infrastructure
+      value: 90
+    - name: Intrusion Detection
+      value: 80
+- name: Monitoring
+  icon: eye
+  items:
+    - name: Netdata
+      value: 95
+    - name: Sensu
+      value: 95
+    - name: Zabbix
+      value: 85
+    - name: Nagios
+      value: 90
+    - name: Icinga
+      value: 80
+- name: Logging &amp; Metrics
+  icon: clipboard
+  items:
+    - name: Logstash
+      value: 95
+    - name: Kibana
+      value: 85
+    - name: Graphite
+      value: 85
+    - name: Grafana
+      value: 80
+    - name: InfluxDB
+      value: 80
+- name: Agilit&auml;t
+  icon: ios-people
+  items:
+    - name: Kanban
+      value: 95
+    - name: Scrum
+      value: 85
+    - name: JIRA
+      value: 80
+- name: Entwicklung
+  icon: code-working
+  items:
+    - name: Shell-Scripting (Zsh, Bash, Posix)
+      value: 90
+    - name: Python
+      value: 85
+    - name: Ruby
+      value: 80
+    - name: PHP
+      value: 75
+    - name: Perl
+      value: 50
+    - name: PowerShell
+      value: 70
+    - name: Java
+      value: 60
+    - name: Scala
+      value: 35
+- name: Versionierung
+  icon: pull-request
+  items:
+    - name: GIT
+      value: 95
+    - name: SVN
+      value: 75
+    - name: Mercurial
+      value: 50

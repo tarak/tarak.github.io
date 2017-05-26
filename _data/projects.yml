@@ -1,0 +1,12 @@
+- name: rspec-cloud-aws
+  description: Rspec-basierte DSL zum Testen von Resourcen in der Amazon AWS Cloud.
+  owner: rspec-cloud
+- name: chef-aws-provisioner
+  description: Asynchrone Provisionierung von Resourcen mit Chef auf der Amazon AWS Cloud.
+  owner: tarak
+- name: django-password-policies
+  description: Passwort-Sicherheit f&uuml;r das Django-Framework.
+  owner: tarak
+- name: django-change-email
+  description: Email-Management f&uuml;r das Django-Framework.
+  owner: tarak

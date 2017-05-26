@@ -1,57 +1,17 @@
-<section id="projects" class="bg-alt">
-    <div class="container section-header">
-        <div class="row">
-            <div class="col-lg-12 text-xs-left">
-                <h3 class="m-t-0 text-primary">Projekte</h3>
-                <hr class="primary">
-            </div>
-        </div>
+<section id="projects" class="bg-odd">
+  <div class="container wow fadeIn">
+    <h3 class="text-primary text-uppercase">Projekte</h3>
+    <hr class="primary">
+    <div class="row">
+      <div class="col-12 mb-4 mt-4">
+        Dies ist eine Liste von Tarak's Open-Source Projekten, die auf Github gehostet werden:
+      </div>
     </div>
-    <div class="container wow fadeIn">
-        <div class="row projects-row">
-            <div class="col-lg-12 col-md-12 text-xs-left">
-                Dies ist eine Liste von Tarak's Open-Source Projekten, die auf Github gehostet werden:
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 col-md-6">
-                <div class="feature">
-                    <h4 class="text-xs-left">rspec-cloud-aws</h4>
-                    <p class="text-justify">Rspec-basierte DSL zum Testen von Resourcen in der Amazon AWS Cloud.</p>
-                    <a class="btn btn-primary projects-button" href="https://github.com/rspec-cloud/rspec-cloud-aws" role="button" target="_blank">
-                        <i class="ion-social-github wow fadeIn" data-wow-delay=".1s"></i>&nbsp;&nbsp;Github
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <div class="feature">
-                    <h4 class="text-xs-left">chef-aws-provisioner</h4>
-                    <p class="text-justify">Asynchrone Provisionierung von Resourcen mit Chef auf der Amazon AWS Cloud.</p>
-                    <a class="btn btn-primary projects-button" href="https://github.com/tarak/chef-aws-provisioner" role="button" target="_blank">
-                        <i class="ion-social-github wow fadeIn" data-wow-delay=".1s"></i>&nbsp;&nbsp;Github
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 col-md-6">
-                <div class="feature">
-                    <h4 class="text-xs-left">django-password-policies</h4>
-                    <p class="text-justify">Passwort-Sicherheit f&uuml;r das Django-Framework.</p>
-                    <a class="btn btn-primary projects-button" href="https://github.com/tarak/django-password-policies" role="button" target="_blank">
-                        <i class="ion-social-github wow fadeIn" data-wow-delay=".1s"></i>&nbsp;&nbsp;Github
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <div class="feature">
-                    <h4 class="text-xs-left">django-change-email</h4>
-                    <p class="text-justify">Email-Management f&uuml;r das Django-Framework.</p>
-                    <a class="btn btn-primary projects-button" href="https://github.com/tarak/django-change-email" role="button" target="_blank">
-                        <i class="ion-social-github wow fadeIn" data-wow-delay=".1s"></i>&nbsp;&nbsp;Github
-                    </a>
-                </div>
-            </div>
-        </div>
+    <div class="row">{% for project in site.data.projects %}
+      <div class="col-md-6">
+        <h5 class="body-text"><a href="https://github.com/{{ project.owner }}/{{ project.name }}">{{ project.owner }} / {{ project.name }}</a></h5>
+        <p class="body-text text-justify">{{ project.description }}</p>
+      </div>{% endfor %}
     </div>
+  </div>
 </section>

@@ -1,0 +1,20 @@
+<section class="" id="top">
+  <div class="container">
+    {% for post in site.posts %}
+    <div class="row">
+      <div class="col-12 text-justify excerpt">
+        <h1 class="mt-4 mb-4"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        {{ post.excerpt }}
+      </div>
+    </div>
+    <div class="row mt-4 mb-4">
+      <div class="col-12">
+          {% for tag in post.tags %}<span class="badge badge-primary p-2 mr-2 mb-2"><i class="icon ion-pricetag mr-1"></i><a href="/blog/tags/#{{ tag | slugify }}" class="tags">{{ tag }}</a></span>{% endfor %}<br>
+          {% for tag in post.categories %}<span class="badge badge-primary p-2 mr-2"><i class="icon ion-folder mr-1"></i><a href="/blog/categories/#{{ tag | slugify }}" class="tags">{{ tag }}</a></span>{%
+          endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+</section>
