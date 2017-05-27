@@ -11,7 +11,7 @@
         <dl class="mt-4">{% for item in skill.items %}
           <dt class="body-text mt-4">{{ item.name }}</dt>
           <dd class="mt-2">
-            <div class="progress">
+            <div class="progress progress-darker">
               <div class="progress-bar" role="progressbar" style="width: {{ item.value }}%" aria-valuenow="{{ item.value }}" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </dd>{% endfor %}

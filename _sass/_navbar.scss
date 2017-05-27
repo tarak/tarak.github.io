@@ -47,40 +47,18 @@
   }
 }
 @media (min-width: 768px) {
-  .navbar {
-    border-color: transparent;
-    background-color: white;
-    min-height: 3em;
-  }
+  .navbar {}
 
-  .navbar-brand {
-    color: $blue;
-    float: left;
-    padding-left: 1px;
-  }
+  .navbar-brand {}
 
-  .navbar {
-    .navbar-brand {
-      &:focus,
-      &:hover {
-        color: #001A33;
-      }
-    }
+  .navbar {}
 
-    .navbar-nav > li > a {
-      height: 100%;
-      color: #001A33;
-      letter-spacing: 1.1px;
+  .navbar-nav > li > a {
+    height: 100%;
 
-      &:focus {
-        color: #001A33;
-        letter-spacing: 1.1px;
-      }
+    &:focus {}
 
-      &:focus:hover,
-      &:hover {
-        color: #001A33;
-      }
-    }
+    &:focus:hover,
+    &:hover {}
   }
 }
