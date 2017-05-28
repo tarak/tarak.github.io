@@ -6,24 +6,6 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=latin-ext';
 @import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext';
 
-$gray-base: #000 !default;
-$gray-darker: lighten($gray-base, 13.5%) !default; // #222
-$gray-dark: lighten($gray-base, 20%) !default; // #333
-$gray: lighten($gray-base, 33.5%) !default; // #555
-$gray-light: lighten($gray-base, 46.7%) !default; // #777
-$gray-lighter: lighten($gray-base, 93.5%) !default; // #eee
-$gray-light2: lighten(#000, 98.6667%);
-
-$blue: #007fff !default;
-$enable-flex: true;
-$enable-rounded: true;
-$enable-shadows: true;
-$enable-gradients: true;
-$enable-transitions: true;
-$font-family-sans-serif: Lato, 'Helvetica Neue', Arial, sans-serif;
-$font-family-serif: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-$font-family-base: $font-family-sans-serif;
-$font-size-small-header: 12px !default;
 
 @import 'bootstrap';
 
@@ -31,25 +13,3 @@ $font-size-small-header: 12px !default;
 @import 'header';
 @import 'navbar-local';
 @import 'syntax';
-
-.bg-odd {
-  background-color: $gray-lighter;
-}
-
-.bg-even {
-  background-color: $gray-light2;
-}
-
-.bg-dark {
-  background-color: $gray-dark;
-}
-
-.fadeIn {
-  -webkit-animation-duration: 3s;
-  -moz-animation-duration: 3;
-  -ms-transition-animation-duration: 3s;
-}
-
-.body-text {
-  font-family: $font-family-serif;
-}

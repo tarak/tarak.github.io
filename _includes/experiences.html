@@ -4,7 +4,7 @@
     <hr class="primary">
     <div class="row">{% for experience in site.data.experiences %}
       <div class="col-md-12 mt-4">
-        <div class="mb-4 mt-4 pull-right text-right">
+        <div class="mb-4 mt-4 float-right text-right">
           {{ experience.start_date }} - {{ experience.end_date }}<i class="ion ion-android-calendar ml-2"></i><br>
           {% if experience.company_url %}<a href="{{ experience.company_url }}" target="_blank">{% endif %}{{ experience.company }}{% if experience.company_url %}</a>{% endif %}<i class="ion ion-home ml-2"></i><br>
           {{ experience.location }}<i class="ion ion-ios-location ml-2"></i>

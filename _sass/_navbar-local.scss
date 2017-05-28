@@ -1,70 +1,9 @@
-/*.navbar {
-  border-color: rgba(35, 35, 35, 0.05);
-  background-color: white;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.navbar-brand {
-  -webkit-transition: padding 0.2s ease-in;
-  -moz-transition: padding 0.2s ease-in;
-  transition: padding 0.2s ease-in;
-  float: none;
-}
-
-.navbar .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {}
-
-.navbar .navbar-toggle,
-.navbar-default .navbar-collapse {
-  border-color: transparent;
-}
-
-.navbar .navbar-nav {
-  > li > a {
-    font-size: $font-size-small-header;
-    text-transform: uppercase;
-  }
-
-  .nav-link.active {
-    color: $blue !important;
-    background-color: white;
-
-    &:focus {
-      color: $blue !important;
-      background-color: white;
-    }
-  }
-}
-@media (max-width: 768px) {
-  .navbar .navbar-nav {
-    > .nav-item {
-      float: none;
-      margin-left: 0.1rem;
-    }
-    float: none !important;
-  }
-}
-@media (min-width: 768px) {
-  .navbar {}
-    .nav-link.active {
-}
-
-  .navbar-brand {}
-
-  .navbar {}
-
-  .navbar-nav > li > a {
-    height: 100%;
-
-    &:active {}
-
-    &:focus:hover,
-    &:hover {}
-  }
-}*/
 .navbar {
   background-color: white;
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-serif;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: $blue;
+  border-bottom: solid black 2px;
 }

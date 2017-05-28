@@ -5,11 +5,12 @@ html {
 }
 
 body {
-  font-family: $font-family-serif;
   position: relative;
   overflow-y: auto;
-  padding-top: 0;
+  padding-top: 56px;
 }
+
+$gray-light2: lighten(#000, 98.6667%);
 
 section {
   min-height: 100%;
@@ -41,7 +42,6 @@ section {
 }
 
 a.tags {
-  &.active,
   &:active,
   &:focus,
   &:hover,
@@ -56,7 +56,6 @@ a.tags {
 }
 
 a.social-links {
-  &.active,
   &:active,
   &:focus,
   &:hover,
@@ -68,7 +67,6 @@ a.social-links {
 }
 
 a.contact-links {
-  &.active,
   &:active,
   &:focus,
   &:hover,
@@ -95,4 +93,27 @@ a.contact-links {
 }
 .progress-white {
   background-color: white;
+}
+
+
+.bg-odd {
+  background-color: $gray-lighter;
+}
+
+.bg-even {
+  background-color: $gray-light2;
+}
+
+.bg-dark {
+  background-color: $gray-dark;
+}
+
+.fadeIn {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3;
+  -ms-transition-animation-duration: 3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-serif;
 }
