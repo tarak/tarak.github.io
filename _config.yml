@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title:            Tarak's Page
+title:            Tarak's GitHub Page
 email:            halbkarat@gmail.com
-description:      Tarak's persönliche Page
+description:      Tarak's persönliche Page auf GitHub
 baseurl:          "" # the subpath of your site, e.g. /blog
 url:              "" # the base hostname & protocol for your site
 twitter_username: halbkarat
@@ -39,14 +39,9 @@ permalink:        pretty
 author:
   name:           Tarak
   description:    A passionate <strong>developer and researcher</strong>, learning to be a giant.
-  gravatar:       3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
+  gravatar:       aafa4d1850e29c79aba059ecf5285ec7
   usernames:
-    linkedin:     https://www.linkedin.com/in/lizhihao
     github:       https://github.com/tarak
-    # facebook:   <hide>
-    twitter:      https://twitter.com/Li_Zhihao
-    weibo:        http://weibo.com/41173780
-    email:        http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
 
 # Navigation (2nd level links supported)
 nav:

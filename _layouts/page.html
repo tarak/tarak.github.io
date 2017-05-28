@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "de" }}">
 {% include head.html %}
-<body data-spy="scroll" data-target="#nav-content" data-offset="60">
+<body>
   {% include navbar_blog.html %}
-  {% include page.html %}
+  {% include article.html %}
   {% include contact.html %}
   {% include js_scripts.html %}
 </body>
