@@ -21,10 +21,13 @@ url:              "" # the base hostname & protocol for your site
 twitter_username: halbkarat
 github_username:  tarak
 
+exclude: ['README.md']
+
 # Build settings
 markdown:         kramdown
+highlighter: rouge
 theme:            minima
-gems:             [bootstrap, autoprefixer-rails, jekyll-assets, jekyll-paginate]
+gems:             [jekyll-sitemap, jekyll-seo-tag, jekyll-feed, jekyll-assets, jekyll-paginate]
 sass:
   sass_dir:       _sass
   style:          compressed

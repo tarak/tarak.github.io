@@ -1,0 +1,98 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: $font-family-serif;
+  position: relative;
+  overflow-y: auto;
+  padding-top: 0;
+}
+
+section {
+  min-height: 100%;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  section {
+    min-height: 100px;
+    padding: 6rem 0;
+  }
+}
+
+.icon-lg {
+  font-size: 4rem;
+}
+
+.icon-l {
+  font-size: 3.5rem;
+}
+
+.icon-m {
+  font-size: 3rem;
+}
+
+.icon-s {
+  font-size: 2rem;
+}
+
+a.tags {
+  &.active,
+  &:active,
+  &:focus,
+  &:hover,
+  &:link,
+  &:visited {
+    color: white;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+a.social-links {
+  &.active,
+  &:active,
+  &:focus,
+  &:hover,
+  &:link,
+  &:visited {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+a.contact-links {
+  &.active,
+  &:active,
+  &:focus,
+  &:hover,
+  &:link,
+  &:visited {
+    color: white;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.excerpt p {
+  margin-top: 2rem;
+}
+
+.progress {
+  background-color: white;
+}
+
+.progress-darker {
+  background-color: $gray-lighter;
+}
+.progress-white {
+  background-color: white;
+}

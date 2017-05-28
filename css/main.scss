@@ -14,9 +14,23 @@ $gray-light: lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter: lighten($gray-base, 93.5%) !default; // #eee
 $gray-light2: lighten(#000, 98.6667%);
 
-@import 'custom';
+$blue: #007fff !default;
+$enable-flex: true;
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-transitions: true;
+$font-family-sans-serif: Lato, 'Helvetica Neue', Arial, sans-serif;
+$font-family-serif: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+$font-family-base: $font-family-sans-serif;
+$font-size-small-header: 12px !default;
+
+@import 'bootstrap';
+
+@import 'custom-local';
 @import 'header';
-@import 'navbar';
+@import 'navbar-local';
+@import 'syntax';
 
 .bg-odd {
   background-color: $gray-lighter;
