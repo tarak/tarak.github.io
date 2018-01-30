@@ -1,0 +1,6 @@
+- name: CCNA
+  description: Cisco Certified Network Associate
+- name: LPIC-2
+  description: Certified Linux Engineer
+- name: LPIC-1
+  description: Certified Linux Administrator

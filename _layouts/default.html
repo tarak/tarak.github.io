@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "de" }}">
 {% include head.html %}
-<body data-spy="scroll" data-target="#navbar1" data-offset="56">
-  {% include header.html %}
+<body data-spy="scroll" data-target="#navbarToggler">
   {% include navbar.html %}
+  {% include header.html %}
   {% include profile.html %}
   {% include skills.html %}
+  {% include certificates.html %}
   {% include projects.html %}
   {% include experiences.html %}
   {% include personal.html %}

@@ -1,14 +1,34 @@
+- company: Selbstst&auml;ndig
+  title: IT-Consultant im Projekt Consort-IT/MVI/BMW On Demand Mobility
+  start_date: Okt. 2017
+  end_date: Jetzt
+  location: N&uuml;rnberg, M&uuml;nchen, Leipzig
+  assignments:
+    - Implementierung von Micro-Services in JAVA-EE Technologie auf Basis von Payara-Micro Server.
+    - Implementierung der BMW On Demand Mobility Build- und Deployment-Pipeline auf Basis der Consort-IT Micro-Pipeline.
+    - 2<sup>nd</sup> &amp; 3<sup>rd</sup> Level-Support der Entwickler f&uuml;r Kubernetes-Cluster in Amazon AWS.
+- company: COMVEL GmbH / weg.de
+  company_url: https://www.weg.de/
+  title: Head of IT-Operations
+  start_date: Feb. 2017
+  end_date: Aug. 2017
+  location: K&ouml;ln, M&uuml;nchen, Leipzig
+  assignments:
+    - Team-Lead mit Verantwortung f&uuml;r Business Operations.
+    - Implementierung und Organisierung von Change Management und Business Prozessen.
+    - Implementierung und Organisierung von Support Prozessen.
+    - Migration Inhouse-Ressourcen in private Cloud auf OpenStack-Basis bei ProSiebenSat.1 Media.
 - company: COMVEL GmbH / weg.de
   company_url: https://www.weg.de/
   title: DevOps Engineer
   start_date: Sep. 2016
-  end_date: Jetzt
+  end_date: Feb. 2017
   location: K&ouml;ln, M&uuml;nchen, Leipzig
   assignments:
-    - Migration einer veralteten Infrastruktur in eine private Cloud auf OpenStack-Basis.
+    - Migration einer veralteten Infrastruktur in private Cloud auf OpenStack-Basis bei ProSiebenSat.1 Media.
     - Konzeption und Aufbau von Server-Infrastrukturen auf OpenStack-Basis.
-    - Entwicklung von Tools zum dynamischen Deployment von Cloud-Infrastrukturen.
-    - Einf&uuml;hrung und Einweisung in Configuration Management.
+    - Entwicklung von Tools zum dynamischen Deployment von Cloud-Infrastrukturen (Infrastructure as Code).
+    - Einf&uuml;hrung und Einweisung der Entwickler &amp; Systemadministratoren in Configuration Management.
     - Aktualisierung der Continuous Integration Umgebung.
     - Konfiguration, Migration und Wartung Backend-Systeme (MongoDB &amp; SOLR).
 - company: Testfabrik AG
@@ -62,7 +82,7 @@
     - Implementierung und Betreuung von Virtual Private Networks zwischen Symantec Firewall-Appliances.
     - Mehrsprachiger technischer Support bei der Kunden-Akquise in Deutschland und Frankreich.
     - Implementierung und Betreuung von Fernwartungssystemen (Dial-In Router, Terminal-Server, USV-Systeme).
-    - Mehrsprachiger 1st &amp; 2nd Level-Support und 24x7 Incident Response.
+    - Mehrsprachiger 1<sup>st</sup> &amp; 2<sup>nd</sup> Level-Support und 24x7 Incident Response.
 - company: Icangetyou.com AG
   title: Linux-Systemadministrator
   start_date: Dez. 2000
