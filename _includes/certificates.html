@@ -1,4 +1,4 @@
-<section id="certificates" class="bg-odd">
+<section id="certificates" class="bg-even">
   <div class="container wow fadeIn">
     <h3 class="text-primary text-uppercase">Zertifizierungen</h3>
     <hr class="primary">
@@ -6,8 +6,8 @@
       <div class="col-md-12 mb-4 mt-4">Dies sind die Zertifizierungen, die Tarak erworben hat:</div>
     </div>{% for certificate in site.data.certificates %}
     <div class="row">
-      <div class="col-md-2 text-primary text-uppercase text-md-right">{{ certificate.name }}</div>
-      <div class="col-md-10">{{ certificate.description }}</div>
+      <div class="col-md-6 font-weight-bold text-primary text-uppercase text-md-right">{{ certificate.name }}</div>
+      <div class="col-md-6">{{ certificate.description }}</div>
     </div>{% endfor %}
   </div>
 </section>

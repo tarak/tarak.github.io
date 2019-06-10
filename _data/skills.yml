@@ -1,5 +1,29 @@
-- name: DevOps
-  icon: power
+- name: Cloud-Plattformen
+  icon: md-cloud-circle
+  items:
+    - name: Amazon AWS Cloud
+      value: 90
+    - name: OpenStack
+      value: 90
+    - name: VMWare vCloud
+      value: 85
+    - name: Google Cloud Platform
+      value: 75
+    - name: Microsoft Azure
+      value: 70
+- name: Container-Technologien
+  icon: md-cube
+  items:
+    - name: Kubernetes
+      value: 95
+    - name: AWS ECR
+      value: 95
+    - name: Docker
+      value: 95
+    - name: OpenShift
+      value: 80
+- name: Configuration Management
+  icon: md-power
   items:
     - name: Chef
       value: 95
@@ -9,26 +33,8 @@
       value: 50
     - name: CFEngine
       value: 50
-- name: Cloud-Plattformen
-  icon: cloud
-  items:
-    - name: Amazon AWS Cloud
-      value: 90
-    - name: OpenStack
-      value: 90
-    - name: VMWare vCloud
-      value: 85
-- name: Container
-  icon: cube
-  items:
-    - name: Kubernetes
-      value: 90
-    - name: AWS ECR
-      value: 90
-    - name: Docker
-      value: 95
 - name: Datenbanken
-  icon: funnel
+  icon: ios-funnel
   items:
     - name: PostgreSQL
       value: 90
@@ -39,7 +45,7 @@
     - name: Oracle
       value: 35
 - name: NoSQL
-  icon: android-funnel
+  icon: md-funnel
   items:
     - name: Elasticsearch
       value: 95
@@ -52,7 +58,7 @@
     - name: SOLR
       value: 80
 - name: Messaging
-  icon: ios-chatboxes-outline
+  icon: ios-repeat
   items:
     - name: RabbitMQ
       value: 95
@@ -63,7 +69,7 @@
     - name: MQTT
       value: 80
 - name: Sicherheit
-  icon: lock-combination
+  icon: ios-lock
   items:
     - name: Firewall
       value: 95
@@ -74,7 +80,7 @@
     - name: Intrusion Detection
       value: 80
 - name: Monitoring
-  icon: eye
+  icon: ios-eye
   items:
     - name: Netdata
       value: 95
@@ -87,10 +93,10 @@
     - name: Icinga
       value: 80
 - name: Logging &amp; Metrics
-  icon: clipboard
+  icon: ios-clipboard
   items:
-    - name: Beat
-      value: 95
+    - name: Prometheus
+      value: 85
     - name: Kibana
       value: 85
     - name: Grafana
@@ -100,16 +106,16 @@
 - name: Agilit&auml;t
   icon: ios-people
   items:
+    - name: Scrum
+      value: 95
     - name: Kanban
       value: 95
-    - name: Scrum
-      value: 85
     - name: JIRA
       value: 80
     - name: Confluence
       value: 80
 - name: Entwicklung
-  icon: code-working
+  icon: ios-code
   items:
     - name: Shell-Scripting (Zsh, Bash, Posix)
       value: 90
@@ -128,13 +134,13 @@
     - name: Scala
       value: 35
 - name: Versionierung
-  icon: pull-request
+  icon: ios-code-working
   items:
     - name: GIT
       value: 95
+    - name: GitLab
+      value: 85
+    - name: Bitbucket
+      value: 80
     - name: SVN
       value: 75
-    - name: Bitbucket
-      value: 70
-    - name: Mercurial
-      value: 50

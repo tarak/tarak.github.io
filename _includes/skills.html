@@ -1,4 +1,4 @@
-<section id="skills" class="bg-even">
+<section id="skills" class="bg-odd">
   <div class="container wow fadeIn">
     <h3 class="text-primary text-uppercase">Kompetenzen</h3>
     <hr class="primary">
@@ -6,12 +6,12 @@
     <div class="row text-center">{% for skill in site.data.skills %}
       <div class="col-md-4 mt-4">
 
-        <i class="icon-m ion-{{ skill.icon }}"></i>
+        <i class="icon icon-l ion-{{ skill.icon }}"></i>
         <h5 class="text-uppercase pb-2">{{ skill.name }}</h5>
         <dl class="mt-4">{% for item in skill.items %}
           <dt class="body-text mt-4">{{ item.name }}</dt>
           <dd class="mt-2">
-            <div class="progress progress-darker">
+            <div class="progress progress-white">
               <div class="progress-bar" role="progressbar" style="width: {{ item.value }}%" aria-valuenow="{{ item.value }}" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </dd>{% endfor %}

@@ -1,3 +1,7 @@
+- name: PSPO I
+  description: Professional Scrum Product Owner
+- name: PSM I
+  description: Professional Scrum Master
 - name: CCNA
   description: Cisco Certified Network Associate
 - name: LPIC-2

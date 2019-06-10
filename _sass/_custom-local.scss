@@ -10,7 +10,8 @@ body {
   padding-top: 56px;
 }
 
-$gray-light2: lighten(#000, 98.6667%);
+// $gray-light2: lighten(#000, 98.6667%);
+$gray-light2: lighten(#000, 97.5%);
 
 section {
   min-height: 100%;
@@ -31,6 +32,10 @@ section {
 
 .icon-lg {
   font-size: 4rem;
+}
+
+.icon-xl {
+  font-size: 5rem;
 }
 
 .icon-l {
@@ -65,7 +70,8 @@ a.social-links {
   &:hover,
   &:link,
   &:visited {
-    color: white;
+    // color: white;
+    position: relative;
     text-decoration: none;
   }
 }
@@ -77,6 +83,7 @@ a.contact-links {
   &:link,
   &:visited {
     color: white;
+    text-decoration: underline;
   }
 
   &:hover {

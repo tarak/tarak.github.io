@@ -1,11 +1,23 @@
-- company: Selbstst&auml;ndig
-  title: IT-Consultant im Projekt Consort-IT/MVI/BMW On Demand Mobility
-  start_date: Okt. 2017
+- company: MVI Solve-IT GmbH
+  company_url: https://www.solve-it-mvi.com/
+  title: Managing Consultant & Team-Lead
+  start_date: Apr. 2018
   end_date: Jetzt
+  location: K&ouml;ln, M&uuml;nchen
+  assignments:
+    - Steuerung und Schulung von Partnern, Senior- und Junior-Consultants im Bereich Continuous Delivery und DevOps.
+    - Fachliche und disziplinarische Führung sowie Coaching der Test- und Quality Assurance Teams.
+    - Ausbau der betriebseigenen Continuous Delivery Plattform für Inhouse-Projekte.
+    - Beratung und Konzeption bei Kundenprojekten mit Schwerpunkt Cloud, DevOps und Continuous Delivery.
+    - Fachlicher Support des Vertiebsteams bei der Kunden- und Projekt-Acquise
+- company: Selbstst&auml;ndig
+  title: IT-Consultant im Projekt BMW On Demand Mobility für die MVI Solve-IT GmbH
+  start_date: Okt. 2017
+  end_date: Mär. 2018
   location: N&uuml;rnberg, M&uuml;nchen, Leipzig
   assignments:
     - Implementierung von Micro-Services in JAVA-EE Technologie auf Basis von Payara-Micro Server.
-    - Implementierung der BMW On Demand Mobility Build- und Deployment-Pipeline auf Basis der Consort-IT Micro-Pipeline.
+    - Implementierung der BMW On Demand Mobility Continuous Integration und Continuous Deployment Pipelines.
     - 2<sup>nd</sup> &amp; 3<sup>rd</sup> Level-Support der Entwickler f&uuml;r Kubernetes-Cluster in Amazon AWS.
 - company: COMVEL GmbH / weg.de
   company_url: https://www.weg.de/
@@ -15,8 +27,8 @@
   location: K&ouml;ln, M&uuml;nchen, Leipzig
   assignments:
     - Team-Lead mit Verantwortung f&uuml;r Business Operations.
-    - Implementierung und Organisierung von Change Management und Business Prozessen.
-    - Implementierung und Organisierung von Support Prozessen.
+    - Implementierung und Organisation von Change Management und Business Prozessen.
+    - Implementierung und Organisation von Support Prozessen.
     - Migration Inhouse-Ressourcen in private Cloud auf OpenStack-Basis bei ProSiebenSat.1 Media.
 - company: COMVEL GmbH / weg.de
   company_url: https://www.weg.de/
@@ -72,7 +84,7 @@
     - Implementierung und Betreuung von Firewalls.
     - Web-, Front- und Backend-Entwicklung.
 - company: Symantec Deutschland GmbH
-  company_url: https://symantec.de/
+  company_url: https://www.symantec.com/
   title: Security-Analyst &amp; -Engineer
   start_date: Mär. 2002
   end_date: Aug. 2003
