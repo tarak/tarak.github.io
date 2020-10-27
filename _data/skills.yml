@@ -16,27 +16,27 @@
   items:
     - name: Kubernetes
       value: 95
+    - name: OpenShift
+      value: 95
     - name: AWS ECR
       value: 95
     - name: Docker
       value: 95
-    - name: OpenShift
-      value: 80
 - name: Configuration Management
   icon: md-power
   items:
     - name: Chef
       value: 95
+    - name: Ansible
+      value: 75
     - name: Puppet
       value: 65
-    - name: Ansible
-      value: 50
-    - name: CFEngine
-      value: 50
 - name: Continuous Delivery
   icon: md-return-right
   items:
     - name: Jenkins
+      value: 95
+    - name: Artifactory
       value: 90
     - name: GitLab-CI
       value: 90
@@ -44,19 +44,17 @@
       value: 85
     - name: SonarQube
       value: 85
-    - name: Artifactory
-      value: 80
 - name: Versionierung
   icon: ios-code-working
   items:
     - name: GIT
       value: 95
+    - name: GitHub
+      value: 95
     - name: GitLab
-      value: 85
+      value: 90
     - name: Bitbucket
-      value: 80
-    - name: SVN
-      value: 75
+      value: 90
 - name: Authentication
   icon: md-finger-print
   items:
@@ -86,10 +84,6 @@
       value: 90
     - name: MySQL
       value: 90
-    - name: MS SQL
-      value: 50
-    - name: Oracle
-      value: 35
 - name: NoSQL
   icon: md-funnel
   items:
@@ -169,9 +163,9 @@
       value: 95
     - name: Ruby
       value: 90
-    - name: PHP
-      value: 85
     - name: Java
-      value: 60
-    - name: Scala
-      value: 35
+      value: 75
+    - name: Groovy
+      value: 75
+    - name: PHP
+      value: 65

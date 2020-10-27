@@ -1,15 +1,25 @@
+- company: Eficode GmbH
+  company_url: https://eficode.com/
+  title: DevOps Lead
+  start_date: Aug. 2019
+  end_date: Jetzt
+  location: D/A/CH
+  assignments:
+    - Mentoring und Training von Consultants im Bereich DevOps.
+    - Beratung und Konzeption in Kundenprojekten mit Schwerpunkt Cloud, DevOps und Continuous Delivery.
+    - Fachlicher Support des Vertriebsteams bei der Kunden- und Projekt-Acquise.
 - company: MVI Solve-IT GmbH
   company_url: https://www.solve-it-mvi.com/
   title: Managing Consultant & Team-Lead
   start_date: Apr. 2018
-  end_date: Jetzt
+  end_date: Jun. 2019
   location: K&ouml;ln, M&uuml;nchen
   assignments:
     - Steuerung und Schulung von Partnern, Senior- und Junior-Consultants im Bereich Continuous Delivery und DevOps.
     - Fachliche und disziplinarische Führung sowie Coaching der Test- und Quality Assurance Teams.
     - Ausbau der betriebseigenen Continuous Delivery Plattform für Inhouse-Projekte.
     - Beratung und Konzeption in Kundenprojekten mit Schwerpunkt Cloud, DevOps und Continuous Delivery.
-    - Fachlicher Support des Vertriebsteams bei der Kunden- und Projekt-Acquise
+    - Fachlicher Support des Vertriebsteams bei der Kunden- und Projekt-Acquise.
 - company: Selbstst&auml;ndig
   title: IT-Consultant im Projekt BMW On Demand Mobility für die MVI Solve-IT GmbH
   start_date: Okt. 2017
